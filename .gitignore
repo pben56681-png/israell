@@ -1,0 +1,18 @@
+# Rust Build Artifacts
+target/
+**/*.rs.bk
+
+# Environment Variables & Secrets (CRITICAL)
+.env
+.env.local
+.env.*.local
+
+# IDE Settings
+.vscode/
+.idea/
+*.swp
+*.iml
+
+# OS Files
+.DS_Store
+Thumbs.db
